@@ -267,6 +267,7 @@ SetupOccupation(TwmWindow *twm_win, int occupation_hint)
 				SetMapStateProp(twm_win, InactiveState);
 			}
 		}
+	SetMapStateProp(twm_win, IconicState);
 	}
 }
 
